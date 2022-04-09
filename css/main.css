@@ -1,0 +1,65 @@
+.hidden {
+    display: none;
+}
+div, p, body, header, footer, section, article, nav, h1, h2, h3, h4 {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: none;
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+input {
+    display: block;
+}
+.italics {
+    font-style: italic;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(12, 60px);
+    grid-column-gap: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.mainNavigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.mainNavigation ul li {
+    display: inline;
+    margin-left: 10px;
+}
+.bottomNav {
+    grid-column: 1/7;
+}
+.bottomNavigation ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+.bottomNavigation ul li {
+    display: inline;
+    margin-left: 10px;
+    font-size: 12px;
+}
+.socialMedia {
+    grid-column: 10/13;
+    margin-top: 28px;
+    justify-self: end;
+}
+#socialMediaNavigation ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#socialMediaNavigation li {
+    display: inline;
+}
+/* Comment in CSS */
