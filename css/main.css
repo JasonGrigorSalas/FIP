@@ -13,6 +13,7 @@ img {
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 18px;
+    background-color: lightgrey;
 }
 input {
     display: block;
@@ -26,6 +27,15 @@ input {
     grid-column-gap: 20px;
     padding-left: 20px;
     padding-right: 20px;
+}
+.container {
+    width: 1000px;
+    margin: 0 auto;
+    background-color: lightgrey;
+}
+.bannerHeader {
+    justify-content: center;
+    margin-left: 350px;
 }
 .mainNavigation ul {
     list-style-type: none;
@@ -61,5 +71,12 @@ input {
 }
 #socialMediaNavigation li {
     display: inline;
+    margin-left: 10px;
+}
+#socialMediaNavigation li a {
+    filter: grayscale(100%);
+}
+#socialMediaNavigation li a:hover {
+    filter: grayscale(0%);
 }
 /* Comment in CSS */
